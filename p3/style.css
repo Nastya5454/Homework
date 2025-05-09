@@ -1,0 +1,23 @@
+.block1{
+    background-color: rgb(188, 118, 167);
+    height: 118,2px;
+}
+
+.block1-2{
+    background-color: rgb(255, 185, 100);
+    width: 100px;
+    height: 100px;
+}
+
+.colorText{
+    color: rgb(252, 255, 168);
+}
+
+.block2{
+    background-color: aquamarine;
+    width: 300px;
+}
+
+.colorText2{
+    background-color: blanchedalmond;
+}
