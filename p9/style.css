@@ -1,0 +1,29 @@
+.block-1 {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: italic;
+  font-variation-settings: "wdth" 300;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.block-2{
+    text-decoration-line: line-through;
+}
+
+.block-3{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.block-4{
+    color: blueviolet;
+    text-decoration: overline wavy;
+    word-spacing: 30px;
+}
+
+.block-5{
+    letter-spacing: 5px;
+    text-decoration: underline double;
+}

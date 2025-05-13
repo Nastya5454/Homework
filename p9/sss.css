@@ -1,0 +1,11 @@
+.style12 {
+    text-decoration: dashed;/*+черточки*/
+    text-decoration: dotted;/*+точечки*/
+    text-decoration: double;/*+двойная*/
+    text-decoration: line-through;/*перечеркнутый*/
+    text-decoration: overline;/*сверху*/
+    text-decoration: underline;/*снизу*/
+    text-decoration: wavy;/*+волна*/
+    text-decoration: solid;/*+прямая*/
+    text-decoration: none;
+}
