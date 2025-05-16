@@ -1,0 +1,25 @@
+.big-block{
+    background-color: #f4cede;
+    margin: 10px 10px;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    border-radius: 40px 0px 0px 40px;
+    height: 530px;
+    overflow: auto;
+}
+
+.med-block{
+    margin: -3px -8px;
+}
+
+.small-block{
+    display: inline-block;
+    background-color: #ffb8b8;
+    margin: 10px 5px;
+    padding: 10px 25px;
+    border: 1px solid #000;
+    border-radius: 30px;
+    height: 200px;
+    width: 235px;
+    box-shadow: inset 0px 0px 20px -8px #6c003d;
+}
