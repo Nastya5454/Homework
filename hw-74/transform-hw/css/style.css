@@ -1,0 +1,27 @@
+.container{
+    margin: 50px 300px 100px 500px;
+    min-height: 800px;
+    border-style: dashed;
+    border: dashed rgb(30, 30, 30) 3px;
+}
+
+.block-red{
+    background-color: rgb(255, 54, 54);
+    height: 200px;
+    width: 200px;
+    transform: translate(300%, 298%);
+}
+
+.block-green{
+    background-color: rgb(53, 255, 110);
+    height: 200px;
+    width: 200px;
+    transform: translate(150%, -30%) rotate(25deg);
+}
+
+.block-blue{
+    background-color: rgb(148, 94, 255);
+    height: 200px;
+    width: 200px;
+    transform: translate(460%, -150%) scale(2);
+}
