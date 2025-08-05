@@ -1,0 +1,259 @@
+:root {
+  --color-1: #fff;
+  --color-2: #111;
+  --color-3: #ababab;
+  --color-4: #68ae5c;
+  --color-5: #c5358c;
+}
+/* =========================================== */
+
+/* --- анимация --- */
+.cards-row-2 {
+  display: none;
+  visibility: hidden;
+  transition: all 0.5s ease;
+}
+
+.visible {
+  display: flex; /*или flex, grid*/
+  visibility: visible;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 130px;
+}
+/* --- анимация --- */
+
+.similar {
+  padding: 150px 0 150px;
+}
+.similar__inner {
+}
+.similar__title {
+  font-family: "NAMU 1990";
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 50px;
+  margin-bottom: 60px;
+}
+.similar__span-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 130px;
+}
+.similar__product-card {
+  width: 440px;
+  height: 750px;
+  border-radius: 3px;
+  box-shadow: 0px 4px 41px 0px rgba(0, 0, 0, 0.05);
+  background: var(--color-1);
+
+  position: relative;
+
+  transition: all 0.3s ease;
+}
+.similar__product-card .s-product__buttons {
+  opacity: 0;
+
+  transition: all 0.3s ease;
+}
+.similar__product-card:hover .s-product__buttons {
+  opacity: 1;
+
+}
+.similar__product-card:hover {
+  box-shadow: 0px 4px 41px 0px #0000000d, 0px 4px 41px 0px #0000000d;
+}
+.similar__product-card__innner {
+  padding: 40px;
+}
+.similar__product-card img {
+  border-radius: 10px;
+  height: 440px;
+  width: 440px;
+}
+.similar__product-img {
+}
+.similar__product-text {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 33px;
+  margin-bottom: 38px;
+  height: 99px;
+}
+/* --- строка с наличием --- */
+.similar__span-heart {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-between;
+
+  margin-bottom: 14px;
+}
+.similar__availability {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.similar__circle {
+  background: var(--color-4);
+  border-radius: 100%;
+  height: 13px;
+  width: 13px;
+}
+.similar__avail-text {
+  color: var(--color-4);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.s-heart-icon svg path {
+  stroke: var(--color-2);
+}
+/* --- строка с ценой --- */
+.similar__span-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+}
+.similar__price {
+  font-family: "NAMU 1990";
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 50px;
+}
+.similar__discount {
+  font-family: "NAMU 1990";
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 29px;
+  text-decoration-line: line-through;
+  color: var(--color-3);
+
+  margin-bottom: 3px;
+}
+/* --- кнопки --- */
+.s-product__buttons {
+  position: absolute;
+  top: 750px;
+
+  max-width: 440px;
+
+  display: flex;
+  flex-direction: row;
+}
+/* кнопка +- */
+.s-product__button-counter {
+  margin-right: 0;
+  background: var(--color-1);
+}
+.s-quantity-control {
+  max-width: 210px;
+  max-height: 80px;
+  border: 2px solid var(--color-3);
+  padding: 0 36px;
+
+  display: flex;
+  flex-direction: row;
+}
+.s-minus {
+  margin-top: 28.6px;
+}
+.s-quantity-button {
+  max-width: 18px; /* Ширина кнопок */
+  max-height: 18px; /* Высота кнопок */
+  margin: 31px 0;
+
+  border: none; /* Убираем границы у кнопок */
+  background-color: var(--color-1); /* Цвет фона */
+  cursor: pointer; /* Курсор "рука" при наведении */
+}
+.s-quantity-button svg {
+  width: 18px; /* Подстройте размер, если нужно */
+  height: 18px;
+  pointer-events: none;
+}
+.s-quantity-button.disabled svg path {
+  stroke: var(--color-3);
+  cursor: default;
+}
+.s-quantity-input {
+  appearance: none; /* Убираем стандартные стрелки у input[type=number] */
+  -moz-appearance: textfield; /* для Firefox, чтобы убрать стрелки */
+
+  max-width: 18px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 0%;
+  margin-left: 40px;
+  margin-right: 40px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.s-plus {
+}
+/* --- кнопка в корзину --- */
+.s-product__button-cart {
+  width: 325px;
+  height: 80px;
+}
+.s-product__button-cart__inner {
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  background: var(--color-2);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.s-product__button-cart__text {
+  color: var(--color-1);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 41px;
+}
+.s-product__button-cart__icon {
+  max-width: 30px;
+  max-height: 30px;
+}
+/* --- кнопка больше --- */
+.similar__button-container {
+  display: flex;
+  justify-content: center;
+}
+.similar__button-more {
+  width: 325px;
+  height: 80px;
+  border: 1px solid rgb(17, 17, 17);
+  border-radius: 3px;
+  background: none;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+
+  padding: 19.5px 27.31px 19.5px 35.5px;
+}
+.similar__button-text {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 41px;
+}
+.similar__button-row {
+  width: 25.69px;
+  height: 24.72px;
+}

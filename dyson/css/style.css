@@ -1,0 +1,66 @@
+@import url(../css/fonts.css);
+@import url(reset.css);
+@import url(../css/global.css);
+@import url(../css/product.css);
+@import url(../css/sliders.css);
+@import url(../css/faq.css);
+@import url(../css/similar.css);
+@import url(../css/footer.css);
+
+:root {
+  --color-1: #fff;
+  --color-2: #111;
+  --color-3: #ababab;
+  --color-4: #68ae5c;
+  --color-5: #c5358c;
+}
+/* =========================================== */
+
+.title {
+  font-family: "NAMU 1990";
+}
+
+.header__inner {
+  height: 90px;
+  width: 100%;
+  background: rgba(17, 17, 17, 0.82);
+  padding: 6px 10px 7px;
+}
+.header__inner-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__inner-left {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.header__inner-right {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.header__logo {
+  width: 183px;
+  height: 77px;
+}
+.header__heart-icon {
+  height: 31px;
+  width: 31px;
+  margin-right: 55px;
+}
+
+/* ===== разрешения ===== */
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1600px) {
+  body {
+  }
+}

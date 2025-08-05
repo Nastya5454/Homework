@@ -1,0 +1,341 @@
+.product {
+}
+.container {
+}
+.product__inner {
+  margin: 50px 0 150px;
+}
+.product__path-text {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 27px;
+}
+.product__items {
+  margin-top: 110px;
+  display: flex;
+  justify-content: space-between;
+}
+.product__path-text__light {
+  color: var(--color-3);
+}
+.product__path-text__black {
+}
+
+.product__gallery {
+  max-width: 670px;
+
+  display: flex;
+  flex-direction: row;
+}
+.product__gallery-carousel {
+  display: flex;
+}
+.product__gallery-carousel__inner {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+  max-height: 555px;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+.product__gallery-carousel__list {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+
+  transition: transform 0.3s ease;
+}
+.product__gallery-carousel__item {
+  max-width: 95px;
+  max-height: 95px;
+
+  cursor: pointer;
+}
+.product__gallery-carousel__item:hover {
+  box-shadow: 0px 4px 41px 0px rgba(0, 0, 0, 0.05);
+}
+
+.product__gallery-carousel__fade-out-top {
+  position: absolute;
+  top: -25px;
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: max-height 0.3s ease;
+  z-index: 1;
+}
+.product__gallery-carousel__fade-out-top:hover {
+  opacity: 1;
+}
+.product__gallery-carousel__fade-out-top.disabled {
+  z-index: -1;
+}
+.product__dallery__row-top {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  /* padding: 100px 30px 100px; */
+
+  padding: 65px 15px 15px;
+  cursor: pointer;
+
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.product__gallery-carousel__fade-out-top .product__dallery__row-top:hover {
+  opacity: 1;
+}
+
+.product__gallery-carousel__fade-out {
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: max-height 0.3s ease;
+}
+.product__gallery-carousel__fade-out:hover {
+  opacity: 1;
+}
+.product__dallery__row {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding: 20px 30px 25px;
+  cursor: pointer;
+
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.product__gallery-carousel__fade-out .product__dallery__row:hover {
+  opacity: 1;
+}
+.product__dallery__row-top.disabled,
+.product__dallery__row.disabled {
+  cursor: default; /* Отменяем курсор pointer */
+  pointer-events: none; /* Делаем некликабельными */
+  opacity: 0.5; /* Дополнительно показываем, что кнопка неактивна */
+}
+
+.product__gallery__main-image {
+  margin-left: 25px;
+  position: relative;
+  width: 550px;
+  height: 554px;
+}
+.product__gallery__main-image img {
+  transition: opacity 0.1s ease-in-out; /* Добавляем transition */
+}
+.product__gallery__main-image img.fade-out {
+  opacity: 0;
+}
+.product__gallery__heart-icon {
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  right: 16px;
+  top: 20px;
+}
+.product__gallery__heart-icon.active svg path {
+  fill: var(--color-2);
+  stroke: var(--color-2);
+}
+.product__gallery__heart-icon svg path {
+  stroke: var(--color-2);
+}
+
+.product__info {
+  max-width: 555px;
+}
+.product__info-text {
+}
+.product__title {
+  font-size: 38px;
+  line-height: 1.1;
+  margin-bottom: 40px;
+}
+
+.product__about {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+.text-container {
+  position: relative;
+  max-height: 130px;
+  overflow: hidden;
+  transition: max-height 0.3s ease; /* Плавный переход для разворачивания */
+}
+.text-container:hover {
+  max-height: none; /* Снимаем ограничение высоты при наведении */
+}
+.fade-out {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), white);
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 5px;
+}
+.ellipsis {
+  margin-bottom: -5px;
+  margin-right: 4.5px;
+}
+.text-container:hover .fade-out {
+  display: none; /* Скрываем затухание при наведении */
+}
+
+.product__availability {
+}
+.availability {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin: 49px 0 22px;
+}
+.availability__curcle {
+  display: block;
+  width: 13px;
+  height: 13px;
+  border-radius: 100%;
+  background: var(--color-4);
+}
+.availability__text-true {
+  color: var(--color-4);
+  margin-left: 20px;
+}
+
+.product__info-elements {
+}
+.product__price {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 30px;
+}
+.product__price-basic {
+  color: var(--color-3);
+  font-family: "NAMU 1990";
+  font-size: 30px;
+  line-height: 36px;
+  text-decoration: line-through;
+  margin-bottom: 3px;
+}
+.product__price-discount {
+  font-family: "NAMU 1990";
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.product__buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.product__button-counter {
+  margin-right: 20px;
+}
+
+.quantity-control {
+  max-width: 210px;
+  max-height: 80px;
+  border: 2px solid var(--color-3);
+  padding: 0 36px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.quantity-button {
+  max-width: 18px; /* Ширина кнопок */
+  max-height: 18px; /* Высота кнопок */
+  margin: 31px 0;
+
+  border: none; /* Убираем границы у кнопок */
+  background-color: var(--color-1); /* Цвет фона */
+  cursor: pointer; /* Курсор "рука" при наведении */
+}
+
+.quantity-button svg {
+  width: 18px; /* Подстройте размер, если нужно */
+  height: 18px;
+  pointer-events: none;
+}
+
+.quantity-button.disabled svg path {
+  stroke: var(--color-3);
+  cursor: default;
+}
+
+.minus {
+  margin-top: 28.6px;
+}
+
+.quantity-input {
+  appearance: none; /* Убираем стандартные стрелки у input[type=number] */
+  -moz-appearance: textfield; /* для Firefox, чтобы убрать стрелки */
+
+  max-width: 18px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 0%;
+  margin-left: 40px;
+  margin-right: 40px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.product__button-cart {
+  width: 325px;
+  height: 80px;
+}
+.product__button-cart__inner {
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  background: var(--color-2);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.product__button-cart__text {
+  color: var(--color-1);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 41px;
+}
+.product__button-cart__icon {
+  max-width: 30px;
+  max-height: 30px;
+}
