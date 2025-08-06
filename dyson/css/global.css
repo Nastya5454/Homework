@@ -1,0 +1,47 @@
+:root {
+  --color-1: #fff;
+  --color-2: #111;
+  --color-3: #ababab;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 50px;
+}
+
+.body {
+  font-family: 'Open Sans', "Arial", sans-serif;
+  line-height: 1.5;
+  color: var(--color-2);
+  background: var(--color-1);
+}
+
+.container {
+  max-width: 1365px;
+  margin: 0 auto;
+  padding: 0 auto;
+  height: 100%;
+}
+
+.title {
+  font-family: "NAMU 1990";
+  font-weight: 900;
+}
+
+.header__burger-icon svg path{
+  transition: all .3s ease;
+}
+.header__burger-icon:hover svg path{
+  stroke: #C5358C;
+}
+.heart-icon svg path { 
+  transition: all .3s ease;
+}
+.heart-icon:hover svg path { 
+  stroke: #C5358C; 
+}
+
+.sliders{
+  background-color: #F5F5F5;
+  padding-top: 90px;
+}
