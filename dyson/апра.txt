@@ -1,0 +1,362 @@
+<div class="similar__span-card">
+                  <div class="similar__product-card">
+                    <img src="img/4sect/image 49.jpeg" alt="" class="similar__product-img">
+                    <div class="similar__product-card__innner">
+                      <p class="similar__product-text">Фен Dyson Supersonic HD07 синий медный с 5 насадками  в чехле и расческамия</p>
+                      <div class="similar__span-heart">
+                        <div class="similar__availability">
+                          <div class="similar__circle"></div>
+                          <p class="similar__avail-text">В наличии</p>
+                        </div>
+                        <div class="heart-icon s-heart-icon">
+                          <svg width="32.834961" height="29.757812" viewBox="0 0 32.835 29.7578" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      	<desc>
+      			Created with Pixso.
+      	</desc>
+      	<defs/>
+      	<path id="Vector" d="M3.43 15.75C0.01 12.19 0.22 6.36 3.89 3.08C7.53 -0.17 13.05 0.46 15.93 4.46L16.41 5.13L16.9 4.46C19.77 0.46 25.29 -0.17 28.93 3.08C32.6 6.36 32.82 12.19 29.4 15.75L17.27 28.38C16.8 28.88 16.03 28.88 15.56 28.38L3.43 15.75Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round"/>
+      </svg>
+                        </div>
+                      </div>
+                      <div class="similar__span-price">
+                        <p class="similar__price">59 990Р</p>
+                        <p class="similar__discount">69 990 Р</p>
+                      </div>
+                    </div>
+                    <div class=" s-product__buttons">
+                              <div class="s-product__button-counter">
+                                <div class="s-quantity-control">
+                                  <button class="s-quantity-button s-minus">
+                                    <svg width="20.000000" height="2.000000" viewBox="0 0 20 2" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      	<desc>
+      			Created with Pixso.
+      	</desc>
+      	<defs/>
+      	<path id="Vector 5" d="M19 1L1 1" stroke="#111111" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="round"/>
+      </svg>
+      
+      </button>
+                                  <input type="number" class="s-quantity-input" value="1" min="1">
+                                  <button class="s-quantity-button s-plus">
+                                    <svg width="20.000000" height="20.000000" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      	<desc>
+      			Created with Pixso.
+      	</desc>
+      	<defs/>
+      	<path id="Vector 4" d="M10 19L10.03 10M10.03 10L10 1M1 10L10.03 10L19 10" stroke="#111111" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="round"/>
+      </svg>
+      
+                                  </button>
+                               </div>
+                              </div>
+                              <button class="product__button-cart s-product__button-cart">
+                                  <div class="product__button-cart__inner s-product__button-cart__inner">
+                                    <p class="product__button-cart__text s-product__button-cart__text">
+                                        В корзину
+                                    </p>
+                                    <!-- <img src="img/icons/cart.svg" alt="" class="product__button-cart__icon s-product__button-cart__icon"> -->
+                                  </div>
+                              </button>
+                          </div>
+                  </div>
+                  <div class="similar__product-card">
+                    <img src="img/4sect/image 50.jpeg" alt="" class="similar__product-img">
+                    <div class="similar__product-card__innner">
+                      <p class="similar__product-text">Фен Dyson Supersonic HD07  с 5 насадками и подставкой</p>                   <div class="similar__span-heart">
+                        <div class="similar__availability">
+                          <div class="similar__circle"></div>
+                          <p class="similar__avail-text">В наличии</p>
+                        </div>
+                        <div class="heart-icon s-heart-icon">
+                          <svg width="32.834961" height="29.757812" viewBox="0 0 32.835 29.7578" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      	<desc>
+      			Created with Pixso.
+      	</desc>
+      	<defs/>
+      	<path id="Vector" d="M3.43 15.75C0.01 12.19 0.22 6.36 3.89 3.08C7.53 -0.17 13.05 0.46 15.93 4.46L16.41 5.13L16.9 4.46C19.77 0.46 25.29 -0.17 28.93 3.08C32.6 6.36 32.82 12.19 29.4 15.75L17.27 28.38C16.8 28.88 16.03 28.88 15.56 28.38L3.43 15.75Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round"/>
+      </svg>
+                        </div>
+                      </div>
+                      <div class="similar__span-price">
+                        <p class="similar__price">47 990Р</p>
+                        <p class="similar__discount">51 990 Р</p>
+                      </div>
+                    </div>
+                    <div class=" s-product__buttons">
+                              <div class="s-product__button-counter">
+                                <div class="s-quantity-control">
+                                  <button class="s-quantity-button s-minus">
+                                    <svg width="20.000000" height="2.000000" viewBox="0 0 20 2" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      	<desc>
+      			Created with Pixso.
+      	</desc>
+      	<defs/>
+      	<path id="Vector 5" d="M19 1L1 1" stroke="#111111" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="round"/>
+      </svg>
+      
+      </button>
+                                  <input type="number" class="s-quantity-input" value="1" min="1">
+                                  <button class="s-quantity-button s-plus">
+                                    <svg width="20.000000" height="20.000000" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      	<desc>
+      			Created with Pixso.
+      	</desc>
+      	<defs/>
+      	<path id="Vector 4" d="M10 19L10.03 10M10.03 10L10 1M1 10L10.03 10L19 10" stroke="#111111" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="round"/>
+      </svg>
+      
+                                  </button>
+                               </div>
+                              </div>
+                              <button class="product__button-cart s-product__button-cart">
+                                  <div class="product__button-cart__inner s-product__button-cart__inner">
+                                    <p class="product__button-cart__text s-product__button-cart__text">
+                                        В корзину
+                                    </p>
+                                    <!-- <img src="img/icons/cart.svg" alt="" class="product__button-cart__icon s-product__button-cart__icon"> -->
+                                  </div>
+                              </button>
+                          </div>
+                  </div>
+                  <div class="similar__product-card">
+                    <img src="img/4sect/image 51.jpeg" alt="" class="similar__product-img">
+                    <div class="similar__product-card__innner">
+                      <p class="similar__product-text">Фен Dyson Supersonic 4 насадки HD03 с чехлом для хранения цвет сирень</p>
+                      <div class="similar__span-heart">
+                        <div class="similar__availability">
+                          <div class="similar__circle"></div>
+                          <p class="similar__avail-text">В наличии</p>
+                        </div>
+                        <div class="heart-icon s-heart-icon">
+                          <svg width="32.834961" height="29.757812" viewBox="0 0 32.835 29.7578" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      	<desc>
+      			Created with Pixso.
+      	</desc>
+      	<defs/>
+      	<path id="Vector" d="M3.43 15.75C0.01 12.19 0.22 6.36 3.89 3.08C7.53 -0.17 13.05 0.46 15.93 4.46L16.41 5.13L16.9 4.46C19.77 0.46 25.29 -0.17 28.93 3.08C32.6 6.36 32.82 12.19 29.4 15.75L17.27 28.38C16.8 28.88 16.03 28.88 15.56 28.38L3.43 15.75Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round"/>
+      </svg>
+                        </div>
+                      </div>
+                      <div class="similar__span-price">
+                        <p class="similar__price">46 990Р</p>
+                        <p class="similar__discount">49 990 Р</p>
+                      </div>
+                    </div>
+                    <div class=" s-product__buttons">
+                              <div class="s-product__button-counter">
+                                <div class="s-quantity-control">
+                                  <button class="s-quantity-button s-minus">
+                                    <svg width="20.000000" height="2.000000" viewBox="0 0 20 2" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      	<desc>
+      			Created with Pixso.
+      	</desc>
+      	<defs/>
+      	<path id="Vector 5" d="M19 1L1 1" stroke="#111111" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="round"/>
+      </svg>
+      
+      </button>
+                                  <input type="number" class="s-quantity-input" value="1" min="1">
+                                  <button class="s-quantity-button s-plus">
+                                    <svg width="20.000000" height="20.000000" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      	<desc>
+      			Created with Pixso.
+      	</desc>
+      	<defs/>
+      	<path id="Vector 4" d="M10 19L10.03 10M10.03 10L10 1M1 10L10.03 10L19 10" stroke="#111111" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="round"/>
+      </svg>
+      
+                                  </button>
+                               </div>
+                              </div>
+                              <button class="product__button-cart s-product__button-cart">
+                                  <div class="product__button-cart__inner s-product__button-cart__inner">
+                                    <p class="product__button-cart__text s-product__button-cart__text">
+                                        В корзину
+                                    </p>
+                                    <!-- <img src="img/icons/cart.svg" alt="" class="product__button-cart__icon s-product__button-cart__icon"> -->
+                                  </div>
+                              </button>
+                          </div>
+                  </div>
+                </div>
+                <div class="cards-row-2">
+                  <div class="similar__product-card">
+                    <img src="img/4sect/image 49.jpeg" alt="" class="similar__product-img">
+                    <div class="similar__product-card__innner">
+                      <p class="similar__product-text">Фен Dyson Supersonic HD07 синий медный с 5 насадками  в чехле и расческамия</p>
+                      <div class="similar__span-heart">
+                        <div class="similar__availability">
+                          <div class="similar__circle"></div>
+                          <p class="similar__avail-text">В наличии</p>
+                        </div>
+                        <div class="heart-icon s-heart-icon">
+                          <svg width="32.834961" height="29.757812" viewBox="0 0 32.835 29.7578" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      	<desc>
+      			Created with Pixso.
+      	</desc>
+      	<defs/>
+      	<path id="Vector" d="M3.43 15.75C0.01 12.19 0.22 6.36 3.89 3.08C7.53 -0.17 13.05 0.46 15.93 4.46L16.41 5.13L16.9 4.46C19.77 0.46 25.29 -0.17 28.93 3.08C32.6 6.36 32.82 12.19 29.4 15.75L17.27 28.38C16.8 28.88 16.03 28.88 15.56 28.38L3.43 15.75Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round"/>
+      </svg>
+                        </div>
+                      </div>
+                      <div class="similar__span-price">
+                        <p class="similar__price">59 990Р</p>
+                        <p class="similar__discount">69 990 Р</p>
+                      </div>
+                    </div>
+                    <div class="product__buttons s-product__buttons">
+                              <div class="product__button-counter s-product__button-counter">
+                                <div class="quantity-control s-quantity-control">
+                                  <button class="quantity-button minus s-quantity-button minus">
+                                    <svg width="20.000000" height="2.000000" viewBox="0 0 20 2" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      	<desc>
+      			Created with Pixso.
+      	</desc>
+      	<defs/>
+      	<path id="Vector 5" d="M19 1L1 1" stroke="#111111" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="round"/>
+      </svg>
+      
+      </button>
+                                  <input type="number" class="quantity-input s-quantity-input" value="1" min="1">
+                                  <button class="quantity-button plus s-quantity-button plus">
+                                    <svg width="20.000000" height="20.000000" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      	<desc>
+      			Created with Pixso.
+      	</desc>
+      	<defs/>
+      	<path id="Vector 4" d="M10 19L10.03 10M10.03 10L10 1M1 10L10.03 10L19 10" stroke="#111111" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="round"/>
+      </svg>
+      
+                                  </button>
+                               </div>
+                              </div>
+                              <button class="product__button-cart s-product__button-cart">
+                                  <div class="product__button-cart__inner s-product__button-cart__inner">
+                                    <p class="product__button-cart__text s-product__button-cart__text">
+                                        В корзину
+                                    </p>
+                                    <!-- <img src="img/icons/cart.svg" alt="" class="product__button-cart__icon s-product__button-cart__icon"> -->
+                                  </div>
+                              </button>
+                          </div>
+                  </div>
+                  <div class="similar__product-card">
+                    <img src="img/4sect/image 50.jpeg" alt="" class="similar__product-img">
+                    <div class="similar__product-card__innner">
+                      <p class="similar__product-text">Фен Dyson Supersonic HD07  с 5 насадками и подставкой</p>                   <div class="similar__span-heart">
+                        <div class="similar__availability">
+                          <div class="similar__circle"></div>
+                          <p class="similar__avail-text">В наличии</p>
+                        </div>
+                        <div class="heart-icon s-heart-icon">
+                          <svg width="32.834961" height="29.757812" viewBox="0 0 32.835 29.7578" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      	<desc>
+      			Created with Pixso.
+      	</desc>
+      	<defs/>
+      	<path id="Vector" d="M3.43 15.75C0.01 12.19 0.22 6.36 3.89 3.08C7.53 -0.17 13.05 0.46 15.93 4.46L16.41 5.13L16.9 4.46C19.77 0.46 25.29 -0.17 28.93 3.08C32.6 6.36 32.82 12.19 29.4 15.75L17.27 28.38C16.8 28.88 16.03 28.88 15.56 28.38L3.43 15.75Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round"/>
+      </svg>
+                        </div>
+                      </div>
+                      <div class="similar__span-price">
+                        <p class="similar__price">47 990Р</p>
+                        <p class="similar__discount">51 990 Р</p>
+                      </div>
+                    </div>
+                    <div class="product__buttons s-product__buttons">
+                              <div class="product__button-counter s-product__button-counter">
+                                <div class="quantity-control s-quantity-control">
+                                  <button class="quantity-button minus s-quantity-button minus">
+                                    <svg width="20.000000" height="2.000000" viewBox="0 0 20 2" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      	<desc>
+      			Created with Pixso.
+      	</desc>
+      	<defs/>
+      	<path id="Vector 5" d="M19 1L1 1" stroke="#111111" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="round"/>
+      </svg>
+      
+      </button>
+                                  <input type="number" class="quantity-input s-quantity-input" value="1" min="1">
+                                  <button class="quantity-button plus s-quantity-button plus">
+                                    <svg width="20.000000" height="20.000000" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      	<desc>
+      			Created with Pixso.
+      	</desc>
+      	<defs/>
+      	<path id="Vector 4" d="M10 19L10.03 10M10.03 10L10 1M1 10L10.03 10L19 10" stroke="#111111" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="round"/>
+      </svg>
+      
+                                  </button>
+                               </div>
+                              </div>
+                              <button class="product__button-cart s-product__button-cart">
+                                  <div class="product__button-cart__inner s-product__button-cart__inner">
+                                    <p class="product__button-cart__text s-product__button-cart__text">
+                                        В корзину
+                                    </p>
+                                    <!-- <img src="img/icons/cart.svg" alt="" class="product__button-cart__icon s-product__button-cart__icon"> -->
+                                  </div>
+                              </button>
+                          </div>
+                  </div>
+                  <div class="similar__product-card">
+                    <img src="img/4sect/image 51.jpeg" alt="" class="similar__product-img">
+                    <div class="similar__product-card__innner">
+                      <p class="similar__product-text">Фен Dyson Supersonic 4 насадки HD03 с чехлом для хранения цвет сирень</p>
+                      <div class="similar__span-heart">
+                        <div class="similar__availability">
+                          <div class="similar__circle"></div>
+                          <p class="similar__avail-text">В наличии</p>
+                        </div>
+                        <div class="heart-icon s-heart-icon">
+                          <svg width="32.834961" height="29.757812" viewBox="0 0 32.835 29.7578" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      	<desc>
+      			Created with Pixso.
+      	</desc>
+      	<defs/>
+      	<path id="Vector" d="M3.43 15.75C0.01 12.19 0.22 6.36 3.89 3.08C7.53 -0.17 13.05 0.46 15.93 4.46L16.41 5.13L16.9 4.46C19.77 0.46 25.29 -0.17 28.93 3.08C32.6 6.36 32.82 12.19 29.4 15.75L17.27 28.38C16.8 28.88 16.03 28.88 15.56 28.38L3.43 15.75Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round"/>
+      </svg>
+                        </div>
+                      </div>
+                      <div class="similar__span-price">
+                        <p class="similar__price">46 990Р</p>
+                        <p class="similar__discount">49 990 Р</p>
+                      </div>
+                    </div>
+                    <div class="product__buttons s-product__buttons">
+                              <div class="product__button-counter s-product__button-counter">
+                                <div class="quantity-control s-quantity-control">
+                                  <button class="quantity-button minus s-quantity-button minus">
+                                    <svg width="20.000000" height="2.000000" viewBox="0 0 20 2" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      	<desc>
+      			Created with Pixso.
+      	</desc>
+      	<defs/>
+      	<path id="Vector 5" d="M19 1L1 1" stroke="#111111" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="round"/>
+      </svg>
+      
+      </button>
+                                  <input type="number" class="quantity-input s-quantity-input" value="1" min="1">
+                                  <button class="quantity-button plus s-quantity-button plus">
+                                    <svg width="20.000000" height="20.000000" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      	<desc>
+      			Created with Pixso.
+      	</desc>
+      	<defs/>
+      	<path id="Vector 4" d="M10 19L10.03 10M10.03 10L10 1M1 10L10.03 10L19 10" stroke="#111111" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="round"/>
+      </svg>
+      
+                                  </button>
+                               </div>
+                              </div>
+                              <button class="product__button-cart s-product__button-cart">
+                                  <div class="product__button-cart__inner s-product__button-cart__inner">
+                                    <p class="product__button-cart__text s-product__button-cart__text">
+                                        В корзину
+                                    </p>
+                                    <!-- <img src="img/icons/cart.svg" alt="" class="product__button-cart__icon s-product__button-cart__icon"> -->
+                                  </div>
+                              </button>
+                          </div>
+                  </div>
+                </div>

@@ -1,0 +1,166 @@
+@import url(../css/fonts.css);
+@import url(reset.css);
+@import url(../css/global.css);
+@import url(../css/product.css);
+@import url(../css/sliders.css);
+@import url(../css/faq.css);
+@import url(../css/similar.css);
+@import url(../css/footer.css);
+
+:root {
+  --color-1: #fff;
+  --color-2: #111;
+  --color-3: #ababab;
+  --color-4: #68ae5c;
+  --color-5: #c5358c;
+}
+/* =========================================== */
+
+.title {
+  font-family: "NAMU 1990";
+}
+
+.header__inner {
+  height: 90px;
+  width: 100%;
+  background: rgba(17, 17, 17, 0.82);
+  padding: 6px 10px 7px;
+}
+.header__inner-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__inner-left {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.header__inner-right {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.header__logo {
+  width: 183px;
+  height: 77px;
+}
+.header__heart-icon {
+  height: 31px;
+  width: 31px;
+  margin-right: 55px;
+}
+
+/* ===== разрешения ===== */
+
+@media (max-width: 1600px) {
+  body {
+    width: 1600px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .container {
+    max-width: 1105px;
+    margin: 0px 5%;
+  }
+  .product__info {
+    max-width: 445px;
+    margin-left: 15px;
+  }
+  .ellipsis {
+    margin-bottom: -5px;
+    margin-right: 24.5px;
+  }
+  .quantity-control {
+    max-width: 180px;
+    display: flex;
+    justify-content: center;
+  }
+  .product__button-cart__inner {
+    gap: 12px;
+  }
+  .sliders__menu__items .sliders__menu__list {
+    overflow-x: scroll; /* Включаем горизонтальную прокрутку, если контент не помещается */
+    white-space: nowrap; /* Предотвращает перенос элементов на новую строку */
+  }
+  .sliders__menu__list {
+    margin-left: -8%;
+}
+  .sliders__menu-content {
+    display: flex;
+    justify-content: center;
+    margin-left: -10%;
+  }
+  .sliders__menu-panel {
+    max-width: 900px;
+    margin: 20px 0 150px;
+  }
+  #specifications {
+    max-width: 900px;
+    margin: 20px 0 150px;
+  }
+  .equipment-3 {
+    max-width: 350px;
+  }
+  .equipment-4 {
+    max-width: 350px;
+  }
+  .equipment__img {
+    max-height: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    max-width: 900px;
+    margin: 0 13%;
+    position: relative;
+  }
+  .product__info {
+    max-width: 900px;
+    margin: 50px 0 26px;
+  }
+  .ellipsis {
+    margin-right: 70.5px;
+  }
+  .product__price {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    gap: 40px;
+  }
+  .product__gallery__main-image .product__gallery__heart-icon {
+    display: none;
+  }
+  .product__buttons {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    position: relative;
+  }
+  .product__buttons .product__gallery__heart-icon {
+    display: block;
+    position: absolute;
+    top: -110%;
+  }
+  .product__button-cart {
+    width: 100%;
+  }
+  .quantity-control {
+    max-width: 100%;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+  }
+  .product__gallery {
+    margin-left: -5%;
+  }
+  .product__items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 22px 0 0;
+  }
+}

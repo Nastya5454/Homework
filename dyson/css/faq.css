@@ -1,0 +1,103 @@
+:root {
+  --color-1: #fff;
+  --color-2: #111;
+  --color-3: #ababab;
+  --color-4: #68ae5c;
+  --color-5: #c5358c;
+}
+/* =========================================== */
+
+.FAQ {
+  margin: 150px 0 150px;
+}
+.FAQ__title {
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 50px;
+
+  margin-bottom: 59px;
+}
+.border-line {
+  width: 100%;
+  height: 1px;
+  background: var(--color-3);
+}
+
+.accordion-list {
+}
+.accordion-list__item {
+}
+.accordion-list__item--opened {
+}
+.accordion-list__control {
+  max-width: 1365px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 34px 36px 34px 0;
+}
+.accordion-list__control-title {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.accordion-list__open-icon {
+  width: 36px;
+  height: 36px;
+
+  position: relative;
+  transition: all 0.3s ease;
+}
+.accordion-list__open-icon.active {
+  transform-origin: 18px 18px;
+  transform: rotate(45deg);
+}
+.open-icon__line-1 {
+  position: absolute;
+  top: 18px;
+  left: 0;
+  width: 36px;
+  height: 1.5px;
+  background: var(--color-2);
+  transition: all 0.3s ease;
+}
+.open-icon__line-2 {
+  position: absolute;
+  top: 0;
+  left: 17px;
+  height: 36px;
+  width: 1.5px;
+  background: var(--color-2);
+  transition: all 0.3s ease;
+}
+.accordion-list__item:hover .open-icon__line-1,
+.accordion-list__item:hover .open-icon__line-2 {
+  background: var(--color-5);
+}
+
+.accordion-content {
+  overflow: hidden;
+  transition: height 0.3s ease; /* Плавный переход высоты */
+  height: 0; /* Изначальная высота = 0 */
+}
+.accordion-list__item--opened .accordion-content {
+  height: auto; /* Автоматическая высота, когда элемент открыт */
+}
+.accordion-content-inner {
+}
+.accordion__text {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 150%;
+
+  padding: 16px 0 50px;
+  max-width: 910px;
+}
+
+/* ====== видео ====== */
+
+.video {
+  width: 100%;
+  height: 763px;
+}

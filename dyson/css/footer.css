@@ -1,0 +1,48 @@
+:root {
+  --color-1: #fff;
+  --color-2: #111;
+  --color-3: #ababab;
+  --color-4: #68ae5c;
+  --color-5: #c5358c;
+}
+/* =========================================== */
+
+.footer {
+  background: var(--color-2);
+  padding: 30px 0 60px;
+}
+.footer__inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__info {
+}
+.footer__icon {
+    margin: 0 0 20px -8px;
+}
+.footer__text-s {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 150%;
+  color: var(--color-1);
+}
+.footer__text-l {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 150%;
+  color: var(--color-3);
+
+  max-width: 785px;
+}
+.footer__tel {
+  font-size: 24px;
+  font-weight: lighter;
+  line-height: 33px;
+  color: var(--color-1);
+}
+.footer__tel-num {
+  margin-top: 20px;
+  font-weight: 1000;
+}

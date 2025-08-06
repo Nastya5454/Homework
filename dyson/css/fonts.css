@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'NAMU 1990';
+    src: url('../fonts/NAMU-1990.woff2') format('woff2'),
+        url('../fonts/NAMU-1990.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans.woff') format('woff2'),
+        url('../fonts/OpenSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
